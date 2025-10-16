@@ -1,0 +1,24 @@
+GPU-Driven Rendering Benchmark Results
+======================================================================
+
+Test Date: 2025-10-16 21:48:40
+Hardware: IntelR_IrisR_Xe_Graphics
+Test Objects: 20,000 spheres (1,920,000 vertices)
+
+----------------------------------------------------------------------
+Results (Average of 60 frames):
+----------------------------------------------------------------------
+
+Old Pipeline (CPU-driven):
+  Time per frame: 157.488 ms
+  Actual FPS: 6.3 (VSync limited)
+
+New Pipeline (GPU-driven):
+  Time per frame: 0.030 ms
+  Actual FPS: 60.0 (VSync limited)
+
+Performance Improvement:
+  Speedup: 5326.53x
+  Time reduction: 99.98%
+
+======================================================================

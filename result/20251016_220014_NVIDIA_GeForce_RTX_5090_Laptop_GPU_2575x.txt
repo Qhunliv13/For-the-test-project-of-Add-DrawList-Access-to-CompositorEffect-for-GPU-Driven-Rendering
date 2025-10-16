@@ -1,0 +1,24 @@
+GPU-Driven Rendering Benchmark Results
+======================================================================
+
+Test Date: 2025-10-16 22:00:14
+Hardware: NVIDIA_GeForce_RTX_5090_Laptop_GPU
+Test Objects: 20,000 spheres (1,920,000 vertices)
+
+----------------------------------------------------------------------
+Results (Average of 60 frames):
+----------------------------------------------------------------------
+
+Old Pipeline (CPU-driven):
+  Time per frame: 35.921 ms
+  Actual FPS: 27.8 (VSync limited)
+
+New Pipeline (GPU-driven):
+  Time per frame: 0.014 ms
+  Actual FPS: 60.0 (VSync limited)
+
+Performance Improvement:
+  Speedup: 2574.97x
+  Time reduction: 99.96%
+
+======================================================================

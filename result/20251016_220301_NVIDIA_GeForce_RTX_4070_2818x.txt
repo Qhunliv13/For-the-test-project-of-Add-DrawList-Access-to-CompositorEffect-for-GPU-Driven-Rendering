@@ -1,0 +1,24 @@
+GPU-Driven Rendering Benchmark Results
+======================================================================
+
+Test Date: 2025-10-16 22:03:01
+Hardware: NVIDIA_GeForce_RTX_4070
+Test Objects: 20,000 spheres (1,920,000 vertices)
+
+----------------------------------------------------------------------
+Results (Average of 60 frames):
+----------------------------------------------------------------------
+
+Old Pipeline (CPU-driven):
+  Time per frame: 38.324 ms
+  Actual FPS: 26.1 (VSync limited)
+
+New Pipeline (GPU-driven):
+  Time per frame: 0.014 ms
+  Actual FPS: 60.0 (VSync limited)
+
+Performance Improvement:
+  Speedup: 2817.92x
+  Time reduction: 99.96%
+
+======================================================================
