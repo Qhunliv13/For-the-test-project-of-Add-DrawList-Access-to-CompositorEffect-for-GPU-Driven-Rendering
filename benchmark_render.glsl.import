@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://ca6gjm04ba3m3"
+path="res://.godot/imported/benchmark_render.glsl-04948d873a255d2b70057244c4273cde.res"
+
+[deps]
+
+source_file="res://benchmark_render.glsl"
+dest_files=["res://.godot/imported/benchmark_render.glsl-04948d873a255d2b70057244c4273cde.res"]
+
+[params]
+
